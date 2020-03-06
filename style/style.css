@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css?family=Neucha&display=swap&subset=cyrillic');
+
+body{
+  margin:auto;
+  background: snow;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header{
+  margin:auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.main{
+  margin: 0 0 0 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.footer{
+  margin:auto;
+}
+/* ВЕРХНЕЕ МЕНЮ И СТРОЧКА ПОД НЕЙ */
+.head{
+  margin:auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 48px;
+  background-color:#353535;
+  justify-content: space-between;
+  display: inline-flex;
+  list-style-type: none;
+  font-family:  Serif;
+}
+.search {
+  padding-left: 40px;
+  margin:auto;
+  position: relative;
+      left: 30%;
+      margin-right: 20%;
+      transform: translate( -50%);
+  font-size: 20px;
+  width:896px;
+}
+.search a{
+  padding: 30px;
+  position: relative;
+    top:7px;
+}
+
+#navbar {
+  position: relative;
+       left: 80%;
+       transform: translate( -50%);
+  width: 926px;
+  margin: auto;
+  list-style-type: none;
+  justify-content: space-between;
+  display: inline-flex;
+}
+#navbar a {
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 30px;
+  display: block;
+}
+
+.head_pict{
+  margin-top:48px;
+  height:200px;
+  width:100%;
+  z-index:-1;
+  box-shadow: inset 0 0 10px rgba(0,0,0,1);
+  border-bottom: #EAA639 3px solid;
+}
+
+.head_pict h1 {
+  font-style: normal;
+  position: absolute;
+  top: 150px;
+  left: 25%;
+  width: 100%;
+  font-size:50px;
+  color:snow;
+  font-family: 'Neucha', cursive;
+}
+.daily_head{
+  position:fixed;
+  margin:auto;
+  background-color: #EAA639;
+  left:23%;
+  height:32px;;
+  width: 1024px;
+  justify-content:space-between;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 3px 12px rgba(219, 114, 29, 0.747);
+}
+
+.daily_head table{
+  margin:auto;
+  margin-left: 50px;
+  display:inline-flex;
+  border-spacing: 50px 5px;
+}
+/* ЗАДНИЙ ФОН В РАБОЧЕЙ ЧАСТИ */
+.main_back{
+  margin:auto;
+  margin-top:10px;
+  background-color: snow;
+  width:1024px;
+  min-height: 981px;
+  max-height: 1024px;
+  justify-content: space-between;
+  display:flex;  
+}
+
+.main_back a{  
+  color: black;
+}
+/* ЗАМЕНЯЮЩАЯСЯ ЧАСТЬ */
+.change_part{
+  width:1024px;
+  display:flex;
+  
+}
+
+.change_part table{
+  width:700px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  border-collapse: collapse;
+  color: #686461;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.change_part caption {
+  padding: 10px;
+  color: black;
+  background: #EAA639;
+  font-size: 18px;
+  text-align: left;
+  font-weight: bold;
+  border: 1px solid black;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.change_part th {
+  border-bottom: 3px solid #B9B29F;
+  padding: 10px;
+  text-align: left;
+}
+
+.change_part td {
+  padding: 10px;
+}
+.change_part tr:nth-child(odd) {
+  background: white;
+  border: 1px solid gray;
+}
+.change_part tr:nth-child(even) {
+  background: white;
+  border: 1px solid gray;
+}
+
+.change_part textarea{
+  width:680px;
+  height: 160px;
+  resize: none;
+}
+
+.change_part a{
+  text-decoration: none;
+}
+
+/* СТРАНИЦА ПОЛЬЗОВАТЕЛЕЙ */
+#users_table{
+  width:1024px;
+}
+
+
+/* СТРАНИЦА РЕГИСТРАЦИИ */
+
+.registr_window{
+  margin:auto;
+  background: #EAA639;
+  width:756px;
+  height:512px;
+  position:relative;
+  top:15%;
+  left:4px;
+  border: solid black 0.5px;
+  font-size: 28px;
+  color: black;
+}
+
+.registr_window a{
+  color: black;
+}
+
+.form_pos{
+  margin:auto;
+  position:relative;
+  top:15%;
+  left:25%;
+  justify-content: center
+}
+.form_pos p{
+  position:relative;
+  left:15%;
+}
+.form_pos #button{
+  margin:auto;
+  position:relative;
+  top:25%;
+  left:20%;
+}
+
+.form_pos #reg{
+  margin:auto;
+  position:relative;
+  left: 10%;
+}
+
+/* СТРАНИЦА ПОСТОВ */
+
+.post_el{
+  margin:0 0 0 0;
+  display:inline-flex;
+  justify-content: space-around;
+  width: 680px;
+  height: 60px;
+}
+
+.post_el p{
+  width:240px;
+}
+
+
+
+.osn{
+  margin: 25 0 0 55;
+  padding-left: 15;
+  width: 900px;
+  min-height:150px;
+  max-height:450px;
+  background-color: snow;
+  border: solid #EAA639 2px;
+  word-wrap: break-word;
+}
+
+#msgdate{
+ position:relative;
+ top:-40px;
+ left:100px;
+}
+
+.comment{
+  margin: 5 0 0 75;
+  padding-left: 15;
+  width: 760px;
+  min-height:120px;
+  max-height:450px;
+  background-color: snow;
+  border: solid #EAA639 2px;
+  word-wrap: break-word;
+}
+
+.ost_com{
+  position:relative;
+  left: 15%;
+}
+
+#nume{
+  font-size: 18px;
+}
+
+
+/*НАСТРОЙКА ПРАВОЙ СТОРОНЫ НА НЕСКОЛЬКИХ СТРАНИЦАХ*/
+
+
+#filtr{
+  margin:0 0 0 12px;
+  width:300px;
+  min-height:300px;
+  max-height: 600px;
+  overflow: scroll;
+}
+
+.post_creation{
+  margin:0 0 0 12px;
+  width:300px;
+  height:26px;
+  background: #EAA639;
+  font-size:24px;
+  text-align:center;
+  border:solid 1px ;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
